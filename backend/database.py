@@ -1,21 +1,15 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-# ✅ Update username if different
 DATABASE_URL = "postgresql://apple@localhost:5432/productdb"
 
 engine = create_engine(DATABASE_URL)
 
-SessionLocal = sessionmaker(
-    autocommit=False,
-    autoflush=False,
-    bind=engine
-)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
 
 
-# ✅ Dependency for FastAPI
 def get_db():
     db = SessionLocal()
     try:

@@ -1,0 +1,19 @@
+# 🚀 FastAPI + React Product Manager
+
+Full-stack product management system.
+
+## 🧱 Tech Stack
+
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- React
+- DBeaver
+
+---
+
+## ▶️ Backend
+
+```bash
+cd backend
+uvicorn backend.main:app --reload
