@@ -3,8 +3,8 @@ from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 
-from Dataengineer.FASTAPI.backend import models, schemas
-from Dataengineer.FASTAPI.backend.database import engine, get_db
+from DATAENGINEERING.FASTAPI.backend import models, schemas
+from DATAENGINEERING.FASTAPI.backend.database import engine, get_db
 
 # ==============================
 # Create tables

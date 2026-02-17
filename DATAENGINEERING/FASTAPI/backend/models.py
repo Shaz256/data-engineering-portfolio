@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Float
-from Dataengineer.FASTAPI.backend.database import Base
+from DATAENGINEERING.FASTAPI.backend.database import Base
 
 
 class Product(Base):
