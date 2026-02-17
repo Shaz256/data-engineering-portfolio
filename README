@@ -17,3 +17,5 @@ Full-stack product management system.
 ```bash
 cd backend
 uvicorn backend.main:app --reload
+
+## To run in one cmd '(venv) apple@apples-MacBook-Air pythonProject1 % uvicorn Dataengineer.FASTAPI.backend.main:app --reload ' and in another cmd like pycharm 'apple@apples-MacBook-Air frontend % npm start'
